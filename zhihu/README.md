@@ -10,12 +10,12 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 需要运行proxy.js来实现文件和图片代理
 ```
-npm run build
+node proxy.js
 ```
 
-### Lints and fixes files
+### 编译打包
 ```
-npm run lint
+npm run build
 ```
